@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/public",
+  basePath: "",
+  assetPrefix: '/public',
   reactStrictMode: true,
 };
 
