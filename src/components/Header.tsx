@@ -16,7 +16,7 @@ export default function Header() {
           <Link href="/">Home</Link>
           <Link href="/About">About</Link>
           <Link href="/projects/Promotions">Projects</Link>
-          <Link href="contact">Contact</Link>
+          <Link href="/Contact">Contact</Link>
         </nav>
       </div>
       <div className="flex grow items-center justify-end sm:hidden">
