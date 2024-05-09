@@ -1,0 +1,8 @@
+.Header{
+    text-decoration: none;
+    font-size: 18px;
+}
+div div nav a {
+    border: 1px solid white;
+    padding: 2px 8px;
+}
