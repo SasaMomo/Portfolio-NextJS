@@ -9,49 +9,49 @@ const inter = Inter({ subsets: ["latin"] });
 const allTecs = [
   {
     tname: "Next.js",
-    timg: "/React.png",
+    timg: "https://i.imgur.com/KaBPenW.png",
     tdesc:
       "Esta página foi feita com React.js, importando informações de um array para criar estes cards, menu responsivo e com animações, props com interface para exportar os dados e eu também sei usar os Hooks.",
   },
   {
     tname: "JavaScript",
-    timg: "/JS.png",
+    timg: "https://i.imgur.com/ENgZWAu.png",
     tdesc:
       "Eu sei criar funções, propriedades como map e math, também extrair informaçãos de outros lugares e triggers.",
   },
   {
     tname: "TailWind",
-    timg: "/TW.png",
+    timg: "https://i.imgur.com/cjWrhtS.png",
     tdesc:
       "Esta página esta usando TailWind, eu entendo como usar e consultar as propriedades, fazer os elementos responsivos e também importar CSS no meio das propriedades do TailWind para criar coisas complexas",
   },
   {
     tname: "CSS",
-    timg: "/CSS.png",
+    timg: "https://i.imgur.com/vnUx2D3.png",
     tdesc:
       "Medias Queries para responsividade, importar icones, fontes ou elementos externos.",
   },
   {
     tname: "TypeScript",
-    timg: "/TS.png",
+    timg: "https://i.imgur.com/Jp3iw3f.png",
     tdesc:
       "Está sendo usado para formação do código desta página e também para as sugestões do ALT + Espaço.",
   },
   {
     tname: "Git",
-    timg: "/GIT.png",
+    timg: "https://i.imgur.com/FVD7Fhm.png",
     tdesc:
       "Eu entendo o conceitos de timelines, branches, push origin e commit.",
   },
   {
     tname: "GitHub",
-    timg: "/GitHub.png",
+    timg: "https://i.imgur.com/gxTIVCc.png",
     tdesc:
       "Esta página esta usando o Github Pages para ser exibida, também esta em um repositorio do Github e eu também entendo os conceitos de fork, pull requests, issues e codespaces.",
   },
   {
     tname: "SQL",
-    timg: "/SQL.png",
+    timg: "https://i.imgur.com/nXOKtOu.png",
     tdesc:
       "Não faz bem parte do Front-End mas eu sei fazer tabelas, join/inner join, primary/foreign keys, calcular a performance da db e usar os filtros(order by, group by, where, like).",
   },
