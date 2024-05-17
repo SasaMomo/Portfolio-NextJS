@@ -15,9 +15,9 @@ html{
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 24, 24, 24;
-    --background-end-rgb: 24, 24, 24;
+    --foreground-rgb: 240, 240, 240;
+    --background-start-rgb: 32, 32, 32;
+    --background-end-rgb: 32, 32, 32;
   }
 }
 
@@ -36,6 +36,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+h1,h2,p,a,link{
+  color: rgb(232, 232, 232)
 }
 
 h1{

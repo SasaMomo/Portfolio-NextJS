@@ -14,7 +14,7 @@ export default function Card(props: CardProps) {
     <div className="card-size flex justify-between flex-wrap border-white border-2 p-0 text-center  rounded-xl">
       <div className="mt-1 mx-auto w-80 text-2xl capitalize">{props.pname}</div>
       <Image
-        src="/product.png"
+        src="https://i.imgur.com/xyh5aTO.png"
         width={120}
         height={180}
         alt="IMG"

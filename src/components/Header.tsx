@@ -15,7 +15,7 @@ export default function Header() {
         <nav className="hidden sm:flex items-center gap-4 md:gap-6 justify-end mr-2">
           <Link href="/">Home</Link>
           <Link href="/About">About</Link>
-          <Link href="/projects/Promotions">Projects</Link>
+          <Link href="/Projects">Projects</Link>
           <Link href="/Contact">Contact</Link>
         </nav>
       </div>
@@ -51,25 +51,25 @@ export default function Header() {
             <div className="mt-6">
               <nav className="grid">
                 <Link
-                  href="home"
+                  href="/"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   Home
                 </Link>
                 <Link
-                  href="about"
+                  href="/About"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   About
                 </Link>
                 <Link
-                  href="projects"
+                  href="/Projects"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   Projects
                 </Link>
                 <Link
-                  href="contact"
+                  href="/Contact"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-50 p-3 mt-0 mb-0"
                 >
                   Contact

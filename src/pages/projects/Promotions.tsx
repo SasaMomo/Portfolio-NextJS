@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Inter } from "next/font/google";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,32 +37,32 @@ const allproducts = [
   },
   {
     pname: "monitor",
-    pdesc: "we no longer sell monitors",
+    pdesc: "165hz, 27pols, IPS panel, Displayport, HDR.",
     pprice: 1000,
     poff: 0.2,
     aval: false,
   },
 ];
 
-function Offamount(price: number, off: number) {
-  return 100 * (price - price * off);
-}
-
 export default function Promotions() {
+  function Offamount(price: number, off: number) {
+    return 100 * (price - price * off);
+  }
   return (
     <>
       <Header />
-      <div>
-        <h1 className="text-center mt-5 mb-5">
-          Produtos em promo usando Props e array
-        </h1>
-        <h2 className="text-center mt-5 mb-5">
+      <div className="text-center mt-5 mb-5 container mx-auto">
+        <h1 className="mt-5 mb-5">Produtos em promo usando Props e array</h1>
+        <p className="mt-5 mb-5 mx-auto">
           Se o desconto for maior que 10% o preço fica
           <span className="text-green-400"> verde</span>.
-        </h2>
+        </p>
+        <p className="mt-5 mb-5">
+          Se o produto estiver fora de estoque o preço e o desconto são
+          substituidos por uma mensagem "fora de estoque".
+        </p>
       </div>
       <div className="flex gap-6 flex-wrap justify-evenly">
-        {" "}
         {allproducts.map((e: any) => {
           return (
             <Card
