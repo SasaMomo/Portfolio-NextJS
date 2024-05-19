@@ -15,7 +15,7 @@ export default function About() {
             alt="IMG"
             className="self-center mx-auto p-2"
           />
-          <p>teste</p>
+          <h2></h2>
         </div>
         <p>inglês fluente 2x certificado front-end e SaaS experiencia</p>
       </div>

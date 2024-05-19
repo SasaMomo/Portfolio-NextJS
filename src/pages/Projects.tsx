@@ -16,9 +16,14 @@ export default function Projects() {
           Este projeto consiste em em cartões com produtos onde as informações
           são coletadas de um array, uma função calcula os preços e converte
           para numeros aplicaveis como 99.99 em vez de 99.999887 e tambem é
-          usado o use state com renderização condicional.
+          usada a renderização condicional de CSS e HTML.
         </p>
         <Link href="/projects/Promotions">Projects</Link>
+      </div>
+      <div>
+        <h2>Buttons com useState</h2>
+        <p>Carrinho de compras com useState.</p>
+        <Link href="/projects/Buttons">Buttons</Link>
       </div>
       <Footer />
     </>
