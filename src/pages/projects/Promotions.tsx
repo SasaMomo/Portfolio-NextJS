@@ -38,7 +38,7 @@ const allproducts = [
   {
     pname: "monitor",
     pdesc: "165hz, 27pols, IPS panel, Displayport, HDR.",
-    pprice: 1000,
+    pprice: 1999.99,
     poff: 0.2,
     aval: false,
   },

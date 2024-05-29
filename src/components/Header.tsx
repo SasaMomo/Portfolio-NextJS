@@ -14,9 +14,9 @@ export default function Header() {
       <div className="grow">
         <nav className="hidden sm:flex items-center gap-4 md:gap-6 justify-end mr-2">
           <Link href="/">Home</Link>
-          <Link href="/About">About</Link>
-          <Link href="/Projects">Projects</Link>
-          <Link href="/Contact">Contact</Link>
+          <Link href="/About">Sobre</Link>
+          <Link href="/Projects">Projetos</Link>
+          <Link href="/Contact">Contato</Link>
         </nav>
       </div>
       <div className="flex grow items-center justify-end sm:hidden">
@@ -60,19 +60,19 @@ export default function Header() {
                   href="/About"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
-                  About
+                  Sobre
                 </Link>
                 <Link
                   href="/Projects"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
-                  Projects
+                  Projetos
                 </Link>
                 <Link
                   href="/Contact"
                   className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-50 p-3 mt-0 mb-0"
                 >
-                  Contact
+                  Contato
                 </Link>
               </nav>
             </div>
