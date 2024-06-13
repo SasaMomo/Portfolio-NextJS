@@ -50,7 +50,7 @@ h2{
   text-transform: none;
 }
 .card-size{
-  height:400px;
+  height:380px;
   width: 326px;
 }
 
@@ -60,4 +60,46 @@ h2{
     height:200px;
     width:90%;
   }
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(21, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 200px }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+@keyframes slidefromleft {
+	from {
+	transform: translateX(-300px)
+	}
+	to{
+	transform: translateX(0);
+  opacity: 1;
+	}
+}
+.animation1{
+	animation: slidefromleft 1s ease forwards
+}
+.delay1{
+  animation-delay: 1s;
+}
+.delay2{
+  animation-delay: 2s;
 }

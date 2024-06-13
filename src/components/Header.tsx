@@ -10,13 +10,33 @@ export default function Header() {
       id="headerhef"
       className="flex mx-auto container border-b-2 px-6 h-24 py-2 items-center"
     >
-      <h1 className="Header">Lucas Henrique Front-End Dev</h1>
+      <h1 className="Header typewriter">Portifólio Front-End</h1>
       <div className="grow">
         <nav className="hidden sm:flex items-center gap-4 md:gap-6 justify-end mr-2">
-          <Link href="/">Home</Link>
-          <Link href="/About">Sobre</Link>
-          <Link href="/Projects">Projetos</Link>
-          <Link href="/Contact">Contato</Link>
+          <Link
+            className="hover:bg-purple-500 transition-all active:animate-ping"
+            href="/"
+          >
+            Home
+          </Link>
+          <Link
+            className="hover:bg-purple-500 transition-all active:animate-ping"
+            href="/About"
+          >
+            Sobre
+          </Link>
+          <Link
+            className="hover:bg-purple-500 transition-all active:animate-ping"
+            href="/Projects"
+          >
+            Projetos
+          </Link>
+          <Link
+            className="hover:bg-purple-500 transition-all active:animate-ping"
+            href="/Contact"
+          >
+            Contato
+          </Link>
         </nav>
       </div>
       <div className="flex grow items-center justify-end sm:hidden">

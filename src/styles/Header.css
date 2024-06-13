@@ -4,5 +4,9 @@
 }
 div div nav a {
     border: 1px solid white;
+    border-radius: 4px;
+    font-size: large;
     padding: 2px 8px;
+    font-weight: 500;
 }
+
