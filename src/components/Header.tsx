@@ -72,25 +72,25 @@ export default function Header() {
               <nav className="grid">
                 <Link
                   href="/"
-                  className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
+                  className="text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   Home
                 </Link>
                 <Link
                   href="/About"
-                  className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
+                  className="text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   Sobre
                 </Link>
                 <Link
                   href="/Projects"
-                  className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
+                  className="text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500 border-b-white border-b-2 p-3 mt-0 mb-0"
                 >
                   Projetos
                 </Link>
                 <Link
                   href="/Contact"
-                  className=" text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-50 p-3 mt-0 mb-0"
+                  className="text-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-50 p-3 mt-0 mb-0"
                 >
                   Contato
                 </Link>
