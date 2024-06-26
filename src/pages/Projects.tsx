@@ -21,6 +21,20 @@ export default function Projects() {
             height={426}
             className="items-center mx-auto"
           />
+          <div className="flex items-center justify-around mx-auto gap-2 m-2">
+            <div className="border-2 border-white bg-slate-700 rounded-lg p-2">
+              NextJS
+            </div>
+            <div className="border-2 border-white bg-slate-700 rounded-lg p-2">
+              Tailwind
+            </div>
+            <div className="border-2 border-white bg-slate-700 rounded-lg p-2">
+              JavaScript
+            </div>
+            <div className="border-2 border-white bg-slate-700 rounded-lg p-2">
+              TypeScript
+            </div>
+          </div>
           <Link
             className="border-2 m-4 p-1 mx-auto hover:bg-purple-700"
             target="_blank"
@@ -29,7 +43,7 @@ export default function Projects() {
             Ir ao Projeto
           </Link>
         </div>
-        <div className=" flex flex-col border-t-2">
+        <div className="flex flex-col border-t-2">
           <h2>Cartões promocionais:</h2>
           <p className="text-l">
             Este projeto consiste em em cartões com produtos onde as informações
@@ -43,12 +57,6 @@ export default function Projects() {
           >
             Ir ao Projeto
           </Link>
-        </div>
-
-        <div className="mt-20  border-t-4">
-          <h2>Buttons com useState:</h2>
-          <p>Carrinho de compras com useState.</p>
-          <Link href="/projects/Buttons">Buttons</Link>
         </div>
       </div>
       <Footer />
