@@ -48,8 +48,8 @@ export default function Home() {
       <Header />
       <main className="text-center container mx-auto mb-15">
         <div>
-          <h1 className="mt-5 mb-5">Boas-vindas ao meu Portifólio!</h1>
-          <p className="text-xl">
+          <h1 className="my-5 font-bold">Boas-vindas ao meu Portifólio!</h1>
+          <p className="text-xl mx-[6px] sm:mx-4">
             Meu nome é Lucas Henrique, estou dedicado a aprender mais e melhorar
             as minhas tecnologias do Front-End, eu já fiz trabalhos de design,
             sei mexer no figma e já fiz campanhas de anúncio.
