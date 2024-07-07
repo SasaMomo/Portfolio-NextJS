@@ -11,8 +11,10 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
   return (
-    <div className="card-size flex justify-between flex-wrap border-white border-2 p-0 text-center  rounded-xl">
-      <div className="mt-1 mx-auto w-80 text-2xl capitalize">{props.pname}</div>
+    <div className="card-size flex justify-between flex-wrap border-white border-2 p-0 text-center w-80 rounded-xl h-80">
+      <div className="mt-1 mx-auto  text-2xl capitalize w-80">
+        {props.pname}
+      </div>
       <Image
         src="https://i.imgur.com/xyh5aTO.png"
         width={120}

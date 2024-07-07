@@ -3,26 +3,22 @@ import Image from "next/image";
 interface TecsProps {
   tname: string;
   timg: any;
-  tdesc: string;
 }
 
 export default function Tecs(props: TecsProps) {
   return (
-    <div className="animation1 tecs-size my-4 mx-auto text-2xl container h-22 w-22 md:flex justify-start flex-nowrap border-purple-300 border-2 p-0 text-center rounded-xl opacity-0">
-      <div className="flex flex-col m-2 gap-2 justify-start min-w-40">
+    <div className="animation1 sm:text-2xl text-lg mx-auto flex justify-center flex-nowrap py-2 px-0 sm:py-0 text-center opacity-0 bg-slate-400/0 dark:bg-[#20202000] dark:text-[#FFFFFF]">
+      <div className="flex flex-col my-2 mx-5 gap-2 justify-start">
         <div>{props.tname}</div>
         <div>
           <Image
             src={props.timg}
-            width={110}
-            height={110}
+            width={80}
+            height={80}
             alt="IMG"
-            className="tecs-img self justify-self-end mx-auto rounded-xl border-purple-300 border-2 p-2 bg-purple-600 animate-pulse"
+            className="self justify-self-end mx-auto rounded-xl border-purple-300 border-2 p-2 bg-purple-600 animate-pulse w-18 sm:w-20"
           />
         </div>
-      </div>
-      <div className="text-justify m-6 text-xl">
-        <p>{props.tdesc}</p>
       </div>
     </div>
   );

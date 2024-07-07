@@ -4,7 +4,6 @@
 @import 'Header.css';
 
 :root {
-  --foreground-rgb: 240, 240, 240;
   --background-start-rgb: 32, 32, 32;
   --background-end-rgb: 32, 32, 32;
 }
@@ -15,7 +14,6 @@ html{
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 240, 240, 240;
     --background-start-rgb: 32, 32, 32;
     --background-end-rgb: 32, 32, 32;
   }
@@ -37,9 +35,6 @@ body {
     text-wrap: balance;
   }
 }
-h1,h2,p,a,link{
-  color: rgb(232, 232, 232)
-}
 
 h1{
   font-size: x-large;
@@ -48,18 +43,6 @@ h1{
 h2{
   font-size: large;
   text-transform: none;
-}
-.card-size{
-  height:380px;
-  width: 326px;
-}
-
-
-@media only screen and (width >= 820px){
-  .tecs-size{
-    height:200px;
-    width:90%;
-  }
 }
 
 .typewriter{

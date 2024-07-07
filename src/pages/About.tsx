@@ -6,8 +6,8 @@ export default function About() {
   return (
     <>
       <Header />
-      <div className="flex container mx-auto">
-        <div className="">
+      <div className="flex container mx-auto flex-wrap md:flex-nowrap">
+        <div className="flex-shrink-0 max-w-[150px] md:max-w-[200px] mx-auto">
           <Image
             src="https://i.imgur.com/FpgTk06.png"
             width={200}
@@ -17,11 +17,15 @@ export default function About() {
           />
           <h2 className="text-center">Lucas Henrique</h2>
         </div>
-        <h2></h2>
-        <p className="self-center mx-4">
-          Eu estou iniciando como desenvolvedor Front-End mas ja trabalhei com
-          edição, Hardware, aulas de informática e estágio.
-        </p>
+        <div className="text-center">
+          <h2>Um pouco sobre mim</h2>
+          <p className="self-center mx-4">
+            Eu tenho 23 anos, desde os meus 17 anos eu mergulhei na area da
+            tecnologia, ja trabalhei com edição, manutenção de computadores,
+            aulas de informática , estágio e em cada lugar que eu trabalhei eu
+            aprendi muito tanto na parte tecnica quanto na parte pessoal.
+          </p>
+        </div>
       </div>
       <div className="text-center container mx-auto border-2 ">
         <h2>Certificações</h2>
