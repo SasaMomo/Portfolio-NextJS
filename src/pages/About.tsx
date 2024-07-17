@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <Header />
-      <div className="flex container mx-auto flex-wrap md:flex-nowrap">
+      <div id="top" className="flex container mx-auto flex-wrap md:flex-nowrap">
         <div className="flex-shrink-0 max-w-[150px] md:max-w-[200px] mx-auto">
           <Image
             src="https://i.imgur.com/FpgTk06.png"
