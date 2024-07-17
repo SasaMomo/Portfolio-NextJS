@@ -52,11 +52,10 @@ const allTecs = [
 ];
 
 export default function Home() {
-  const ref = useRef(null);
-
+  const refe = useRef<any>();
   return (
     <div className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden">
-      <Parallax ref={ref} pages={3} className="">
+      <Parallax pages={3} ref={refe}>
         <ParallaxLayer offset={0}>
           <Header />
         </ParallaxLayer>
@@ -64,7 +63,7 @@ export default function Home() {
           factor={1}
           speed={2}
           offset={0.15}
-          onClick={() => ref.current.scrollTo(1)}
+          onClick={() => refe.current.scrollTo(1)}
         >
           <main className="animation1 text-center container mx-auto h-[100vh] flex opacity-0">
             <div className="flex container mx-auto flex-wrap md:flex-nowrap my-auto">
@@ -98,7 +97,7 @@ export default function Home() {
         </ParallaxLayer>
         <ParallaxLayer
           offset={1.2}
-          onClick={() => ref.current.scrollTo(3)}
+          onClick={() => refe.current.scrollTo(3)}
           speed={0.5}
         >
           <div className="mb-[16vh] my-auto">
@@ -182,7 +181,7 @@ export default function Home() {
         <ParallaxLayer
           factor={0.2}
           offset={2.8}
-          onClick={() => ref.current.scrollTo(0)}
+          onClick={() => refe.current.scrollTo(0)}
         >
           <div className="bottom-0 fixed w-full">
             <div className="container mx-auto">
