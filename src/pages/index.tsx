@@ -52,7 +52,7 @@ const allTecs = [
 ];
 
 export default function Home() {
-  const ref = useRef();
+  const ref = useRef(null);
 
   return (
     <div className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden">
@@ -65,10 +65,6 @@ export default function Home() {
           speed={2}
           offset={0.15}
           onClick={() => ref.current.scrollTo(1)}
-          style={{
-            backgroundImage: "url()",
-            backgroundSize: "cover",
-          }}
         >
           <main className="animation1 text-center container mx-auto h-[100vh] flex opacity-0">
             <div className="flex container mx-auto flex-wrap md:flex-nowrap my-auto">
