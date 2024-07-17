@@ -1,18 +1,27 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 export default function Contact() {
   return (
-    <div className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF]">
-      <Header />
-      <div className="container text-center mx-auto">
-        <h1>Contato</h1>
-        <p>Email: sasa.lhcl@gmail.com</p>
-        <p>whatsapp: (85) 99615-1455</p>
-        <p></p>
-        <div></div>
+    <>
+      <div
+        id="top"
+        className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out"
+      >
+        <Header />
+        <div className="container">
+          <Parallax pages={4} className="mx-0 container">
+            <ParallaxLayer className="bg-red-800">
+              <h2>HELLdddddddO</h2>
+            </ParallaxLayer>
+            <ParallaxLayer offset={1} className="bg-green-800">
+              <h2>Is anybody in there</h2>
+            </ParallaxLayer>
+          </Parallax>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }

@@ -7,10 +7,6 @@
   --background-start-rgb: 32, 32, 32;
   --background-end-rgb: 32, 32, 32;
 }
-html{
-  max-width: 1000px;
-  margin:auto;
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -51,14 +47,14 @@ h2{
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 2.5s steps(21, end),
+  animation:
+    typing 3s steps(32, end),
     blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 200px }
+  to { width: 260px }
 }
 
 @keyframes blink-caret {

@@ -44,7 +44,7 @@ export default function About() {
         </div>
         <div className="flex flex-nowrap my-2 border-t-2 border-dotted">
           <p className="mx-auto ">
-            Certificado de Html, CSS, JavaScript, React e Nexxt JS.
+            Certificado de Html, CSS, JavaScript, React e Next JS.
           </p>
         </div>
         <div className="flex md:flex-nowrap my-2 border-t-2 border-dotted">
