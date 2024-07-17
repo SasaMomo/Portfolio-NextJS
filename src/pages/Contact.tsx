@@ -21,13 +21,15 @@ export default function Contact() {
               }}
               className="bg-red-800"
             >
-              <h2>HELLdddddddO</h2>
+              <h2>Hello</h2>
             </ParallaxLayer>
             <ParallaxLayer offset={1} speed={0.1} className="">
               <h2>Is anybody in there</h2>
             </ParallaxLayer>
             <ParallaxLayer offset={0.2} sticky={{ start: 0.5, end: 2.5 }}>
-              <h1 className="mx-auto text-center">Boas vindas ao meu pórti</h1>
+              <h1 className="mx-auto text-center">
+                Boas vindas ao meu portifólio
+              </h1>
             </ParallaxLayer>
           </Parallax>
           <div className="bg-slate-500 z-[44]"> d</div>
