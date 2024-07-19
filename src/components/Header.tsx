@@ -13,7 +13,7 @@ export default function Header() {
         className="flex mx-auto container border-b-2 h-24 py-2 items-center dark:bg-[#202020] bg-slate-400"
       >
         <h1 className="Header typewriter px-6 max-w-[235px]">
-          Portifólio Front-End
+          Portfólio Front-End
         </h1>
         <div className="grow">
           <nav className="hidden sm:flex items-center gap-4 md:gap-6 justify-end mr-2">

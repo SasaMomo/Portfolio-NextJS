@@ -62,8 +62,23 @@ export default function Contact() {
                 <p className="hover:underline hover:scale-110">
                   Telefone: (85) 99615-1455
                 </p>
-                <p className="hover:underline hover:scale-110">Linkedin: </p>
-                <p className="hover:underline hover:scale-110">Whatsapp: </p>
+                <p className="hover:underline hover:scale-110">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/lucas-sasa/"
+                  >
+                    Linkedin: www.linkedin.com//lucas-sasa/
+                  </a>
+                </p>
+                <p className="hover:underline hover:scale-110">
+                  <a
+                    href="https://wa.me/85984195751?text=Olá%20Lucas,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20seu%20portfólio!"
+                    target="_blank"
+                  >
+                    Whatsapp:
+                    <strong className="text-blue-400 ">Clique aqui</strong>
+                  </a>
+                </p>
                 <Link
                   href="https://download1479.mediafire.com/l9b8zqh7ekigGjdr2G9RTqPwnmqQcuy8G5DVKwBklWyE_S6cQ7phn8whD61xLdywe3cq_1VvtaRIUpuGxiWQO0eR3Nv90YHHVwqmlIkBQdj8o_zvlryJoQslYf5OgLP02aITttePmxzpEQnxZTAlZU0d8EOe_K4KVTgZMIxlmJH4uQ/faiuihahqfueav0/Lucas+Henrique+V.pdf"
                   target="_blank"
