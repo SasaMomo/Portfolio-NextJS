@@ -70,17 +70,17 @@ export default function Contact() {
                     Linkedin: www.linkedin.com//lucas-sasa/
                   </a>
                 </p>
-                <p className="hover:underline hover:scale-110">
+                <p className="hover:underline hover:scale-110 ">
                   <a
                     href="https://wa.me/85984195751?text=Olá%20Lucas,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20seu%20portfólio!"
                     target="_blank"
                   >
-                    Whatsapp:
-                    <strong className="text-blue-400 ">Clique aqui</strong>
+                    Whatsapp:  
+                    <strong className="text-blue-400">Clique aqui</strong>
                   </a>
                 </p>
                 <Link
-                  href="https://download1479.mediafire.com/l9b8zqh7ekigGjdr2G9RTqPwnmqQcuy8G5DVKwBklWyE_S6cQ7phn8whD61xLdywe3cq_1VvtaRIUpuGxiWQO0eR3Nv90YHHVwqmlIkBQdj8o_zvlryJoQslYf5OgLP02aITttePmxzpEQnxZTAlZU0d8EOe_K4KVTgZMIxlmJH4uQ/faiuihahqfueav0/Lucas+Henrique+V.pdf"
+                  href="https://drive.usercontent.google.com/u/0/uc?id=1_eFfwPyScvDrB5xiV7hVH8vIfo5Y-pn3&export=download"
                   target="_blank"
                   className="flex mx-auto cursor-pointer hover:scale"
                 >
