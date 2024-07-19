@@ -54,27 +54,21 @@ const allTecs = [
 export default function Home() {
   const refe = useRef<any>();
   return (
-    <div className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden">
+    <div className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out">
       <div>
         <Parallax
           pages={3.2}
           ref={refe}
-          className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden"
+          className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out"
         >
           <ParallaxLayer
-            offset={0}
-            className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden"
-          >
-            <Header />
-          </ParallaxLayer>
-          <ParallaxLayer
-            factor={1}
+            factor={0.8}
             speed={2}
             offset={0.15}
-            onClick={() => refe.current.scrollTo(1)}
-            className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out overflow-hidden"
+            onClick={() => refe.current.scrollTo(0.9)}
+            className=" dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out h-[100vh] flex"
           >
-            <main className="animation1 text-center container mx-auto h-[100vh] flex opacity-0">
+            <main className="animation1 text-center container mx-auto flex opacity-0">
               <div className="flex container mx-auto flex-wrap md:flex-nowrap my-auto">
                 <div className="flex-shrink-0 max-w-[150px] md:max-w-[200px] mx-auto">
                   <Image
@@ -95,17 +89,26 @@ export default function Home() {
                     </h1>
                   </div>
                   <p className="text-xl mx-[6px] sm:mx-4">
-                    Atualmente sou um desenvolvedor Front-End, estou dedicado a
-                    aprender mais e mais sobre as rotinas e tecnologias do
-                    front, eu já fiz trabalhos de design, sei mexer no figma, já
-                    fiz campanhas de anúncio e um alguns trabalhos com React.
+                    Atualmente sou um desenvolvedor Front-End, eu já fiz
+                    trabalhos de design, sei mexer no figma, já fiz campanhas de
+                    anúncio e um alguns trabalhos com React.
                   </p>
+                  <div className="relative bottom-[-5vh]">
+                    Clique para Navegar
+                  </div>
                 </div>
               </div>
             </main>
           </ParallaxLayer>
           <ParallaxLayer
-            offset={1.2}
+            offset={0}
+            factor={0.2}
+            className=" dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out"
+          >
+            <Header />
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={1}
             onClick={() => refe.current.scrollTo(1.8)}
             speed={0.5}
             className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out"
@@ -120,8 +123,19 @@ export default function Home() {
             </div>
           </ParallaxLayer>
           <ParallaxLayer
+            factor={0.2}
+            offset={3}
+            onClick={() => refe.current.scrollTo(0)}
+          >
+            <div className="bottom-0 fixed w-full bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out">
+              <div className="mx-auto ">
+                <Footer />
+              </div>
+            </div>
+          </ParallaxLayer>
+          <ParallaxLayer
             offset={2}
-            factor={0.4}
+            factor={1}
             speed={0.8}
             onClick={() => refe.current.scrollTo(3.2)}
             className="bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out"
@@ -148,7 +162,7 @@ export default function Home() {
                 <ComputerDesktopIcon className="h-[96px] w-[96px] mx-auto text-blue-600" />
                 <div className="text-center h-[94px] sm:h-[120px] flex items-center mb-[8px] sm:mb-[12px]">
                   <p>
-                    Transformar Designs em Páginas é como dar vida a desenhos.
+                    Transformar Designs em páginas é como dar vida a desenhos.
                   </p>
                 </div>
                 <p>Conhecimentos:</p>
@@ -191,17 +205,6 @@ export default function Home() {
                 <p className="flex mx-auto hover:animate-spin origin-left">
                   Hire me <FaceSmileIcon className="h-8 animate-bounce" /> pls?
                 </p>
-              </div>
-            </div>
-          </ParallaxLayer>
-          <ParallaxLayer
-            factor={0.2}
-            offset={3}
-            onClick={() => refe.current.scrollTo(0)}
-          >
-            <div className="bottom-0 fixed w-full z-[-12] bg-slate-400 dark:bg-[#202020] dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out">
-              <div className="mx-auto ">
-                <Footer />
               </div>
             </div>
           </ParallaxLayer>
