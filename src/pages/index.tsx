@@ -64,7 +64,7 @@ export default function Home() {
           <ParallaxLayer
             factor={0.8}
             speed={2}
-            offset={0.15}
+            offset={0.2}
             onClick={() => refe.current.scrollTo(0.9)}
             className=" dark:text-[#FFFFFF] transition-colors duration-500 ease-in-out h-[100vh] flex"
           >
