@@ -18,15 +18,15 @@ export default function Contact() {
         className="bg-slate-400 dark:bg-[#202020] text-[#FFFFFF] transition-colors duration-500 ease-in-out"
       >
         <div>
-          <Parallax pages={1.6} ref={refe}>
+          <Parallax pages={2} ref={refe}>
             <ParallaxLayer
-              speed={2}
+              speed={1.1}
               factor={3}
               style={{
                 backgroundImage: "url(https://i.imgur.com/uHwpwUq.jpeg)",
                 backgroundSize: "cover",
               }}
-              className="bg-red-800"
+              className="bg-gray-800"
             ></ParallaxLayer>
             <ParallaxLayer
               offset={0.1}
@@ -41,7 +41,7 @@ export default function Contact() {
                 alt="d"
                 width={700}
                 height={677}
-                className="w-[80vw] sm:w-[60vw] mx-auto border-4 rounded-2xl border-purple-500"
+                className="w-[80vw] sm:w-[60vw] max-w-[700px] mx-auto border-4 rounded-2xl border-purple-500"
               />
               <div className="flex container mx-auto my-2 active:animate-ping after:animate-ping">
                 <ArrowDownIcon className="w-10 h-10 mx-auto animate-bounce my-4" />
@@ -54,7 +54,7 @@ export default function Contact() {
             <ParallaxLayer offset={0} factor={0.1}>
               <Header />
             </ParallaxLayer>
-            <ParallaxLayer offset={1}>
+            <ParallaxLayer offset={1.2}>
               <div className="mx-auto text-center text-md sm:text-2xl dark:bg-[#202020] dark:text-[#FFFFFF] bg-slate-400 w-[80vw] rounded-md p-4 gap-y-2 flex flex-col">
                 <p className="hover:underline hover:scale-110">
                   Email: sasa.lhcl@gmail.com
@@ -92,8 +92,8 @@ export default function Contact() {
               </div>
             </ParallaxLayer>
             <ParallaxLayer
-              offset={1.5}
-              factor={0.2}
+              offset={1.9}
+              factor={0.1}
               className="dark:bg-[#202020] dark:text-[#FFFFFF] bg-slate-400 w-[80vw] border-t-2 border-dotted"
               onClick={() => refe.current.scrollTo(0)}
             >
