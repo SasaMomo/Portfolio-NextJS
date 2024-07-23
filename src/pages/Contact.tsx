@@ -60,7 +60,7 @@ export default function Contact() {
                   Email: sasa.lhcl@gmail.com
                 </p>
                 <p className="hover:underline hover:scale-110">
-                  Telefone: (85) 99615-1455
+                  Telefone: (85) 98419-5751
                 </p>
                 <p className="hover:underline hover:scale-110">
                   <a
