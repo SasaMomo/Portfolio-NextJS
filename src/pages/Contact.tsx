@@ -72,7 +72,7 @@ export default function Contact() {
                 </p>
                 <p className="hover:underline hover:scale-110 ">
                   <a
-                    href="https://wa.me/85984195751?text=Olá%20Lucas,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20seu%20portfólio!"
+                    href="https://wa.me/+5585984195751?text=Olá%20Lucas,%20eu%20gostaria%20de%20falar%20com%20você%20sobre%20o%20seu%20portfólio!"
                     target="_blank"
                   >
                     Whatsapp:  
